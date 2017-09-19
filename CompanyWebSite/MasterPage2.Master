@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage2.master.cs" Inherits="CompanyWebSite.MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <div>
+
+            <a href="Order.aspx">Order</a>
+            <a href="Optional.aspx">Optional</a>
+            <a href="About.aspx">About</a>
+            <a href="Contact.aspx">Contact</a>
+            
+        </div><br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <br />
+        <h2>Master Page 2</h2>
+    </div>
+    </form>
+</body>
+</html>
